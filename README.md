@@ -21,7 +21,7 @@ How to Use:
 
 Dependencies:                                                                                                                                                                                                      
 Make sure you have the required libraries installed:                                                                                                                                                                                                                                                                                                                                                                              
-		pip install pandas scikit-learn  
+	       1.pip install pandas scikit-learn  
 
 This script can be extended or modified based on specific requirements, such as handling different data formats, adding more transformation steps, or integrating with databases.
 
