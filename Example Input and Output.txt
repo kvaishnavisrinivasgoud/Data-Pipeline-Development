@@ -1,0 +1,24 @@
+
+Input Dataset (input_data.csv):
+
+ Age	Salary	   Gender	Country
+ 25	50000	   Male	        USA
+ 30	NaN	   Female	UK
+ NaN	70000	   Male	        India
+ 35	60000	   Female	USA
+ 40	80000	   Male	        UK
+
+
+
+Transformed Dataset (transformed_data.csv):
+
+The transformed dataset will look like this (after scaling, imputation, and one-hot encoding):
+
+  Age (scaled)	   Salary (scaled)	Gender_Female	Gender_Male	Country_India	Country_UK	Country_USA
+ -1.2649	   -1.2247	         0	          1	              0	             0	             1
+ -0.6325	    0.0000	         1	          0	              0	             1	             0
+  0.0000	    0.8165	         0	          1	              0	             0               0
+  0.6325	   -0.4082	         1	          0	              0              0	             1
+  1.2649	    0.8165	         0	          1	              0	             1	             0
+
+
