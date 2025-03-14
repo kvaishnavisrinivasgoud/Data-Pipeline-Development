@@ -24,10 +24,10 @@ How to Use:
 
 3.Run the script to perform the ETL process.
 
+
 Dependencies:                                                                                                                                                                                                      
 Make sure you have the required libraries installed:                                                                                                                                                              
+pip install pandas scikit-learn  
 
-bash
-pip install pandas scikit-learn                                                                                                                                                                                    
 This script can be extended or modified based on specific requirements, such as handling different data formats, adding more transformation steps, or integrating with databases.
 
