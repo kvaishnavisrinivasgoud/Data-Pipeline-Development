@@ -63,9 +63,9 @@ Explanation of the Output:
 -Gender and Country are one-hot encoded. 
  For example:
  
-        -Gender becomes Gender_Female and Gender_Male.
+   -Gender becomes Gender_Female and Gender_Male.
         
-        -Country becomes Country_India, Country_UK, and Country_USA.
+   -Country becomes Country_India, Country_UK, and Country_USA.
         
 -Missing values are imputed with the most frequent value.
 
