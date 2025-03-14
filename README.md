@@ -1,22 +1,22 @@
 # Data-Pipeline-Development
 Explanation of the Script:                                                                                                                                                                                         
-		1.Extract:
-			The extract_data function reads the dataset from a CSV file using pandas.      
-		2.Transform:
-			The transform_data function preprocesses the data:                                                                                                                                                        
-			-Numerical columns are imputed (missing values filled with the mean) and scaled using StandardScaler.                                                                                                      
-			-Categorical columns are imputed (missing values filled with the most frequent value) and one-hot encoded using OneHotEncoder.                                                                             
-			-The ColumnTransformer is used to apply different preprocessing steps to numerical and categorical columns.                                                                                                
-		3.Load:                                                                                                                                                                                                      
-			The load_data function saves the transformed data to a new CSV file.                                                                                                                                       
-		4.ETL Pipeline:                                                                                                                                                                                              
-			The etl_pipeline function combines all the steps into a single pipeline.                                                                                                                                           
+1.Extract:
+The extract_data function reads the dataset from a CSV file using pandas.      
+2.Transform:
+The transform_data function preprocesses the data:                                                                                                                                                        
+-Numerical columns are imputed (missing values filled with the mean) and scaled using StandardScaler.                                                                                                      
+-Categorical columns are imputed (missing values filled with the most frequent value) and one-hot encoded using OneHotEncoder.                                                                             
+-The ColumnTransformer is used to apply different preprocessing steps to numerical and categorical columns.                                                                                                
+3.Load:                                                                                                                                                                                                      
+The load_data function saves the transformed data to a new CSV file.                                                                                                                                       
+4.ETL Pipeline:                                                                                                                                                                                              
+The etl_pipeline function combines all the steps into a single pipeline.                                                                                                                                           
 
 How to Use:
 
-		1.Replace input_data.csv with the path to your input dataset.
-		2.Replace transformed_data.csv with the desired output file path.
-		3.Run the script to perform the ETL process.
+1.Replace input_data.csv with the path to your input dataset.
+2.Replace transformed_data.csv with the desired output file path.
+3.Run the script to perform the ETL process.
 
 
 Dependencies:                                                                                                                                                                                                      
@@ -27,15 +27,14 @@ This script can be extended or modified based on specific requirements, such as 
 
 
 Expected Output:
-		1.Extract:
 
-                       -The script will load the dataset from the specified input_file_path (e.g., input_data.csv).
-                       -Output in the console:
+1.Extract:
+-The script will load the dataset from the specified input_file_path (e.g., input_data.csv).
+-Output in the console:
                                 Data extracted successfully.
-                2.Transform:
-
-                       -The script will preprocess and transform the data:
-                       -Numerical columns will be imputed (missing values filled with the mean) and scaled.
-                       -Categorical columns will be imputed (missing values filled with the most frequent value) and one-hot encoded.
-                       -Output in the console:
+2.Transform:
+-The script will preprocess and transform the data:
+-Numerical columns will be imputed (missing values filled with the mean) and scaled.
+-Categorical columns will be imputed (missing values filled with the most frequent value) and one-hot encoded.
+-Output in the console:
 
