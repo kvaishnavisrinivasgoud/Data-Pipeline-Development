@@ -25,3 +25,17 @@ Make sure you have the required libraries installed:
 
 This script can be extended or modified based on specific requirements, such as handling different data formats, adding more transformation steps, or integrating with databases.
 
+
+Expected Output:
+		1.Extract:
+
+                       -The script will load the dataset from the specified input_file_path (e.g., input_data.csv).
+                       -Output in the console:
+                                Data extracted successfully.
+                2.Transform:
+
+                       -The script will preprocess and transform the data:
+                       -Numerical columns will be imputed (missing values filled with the mean) and scaled.
+                       -Categorical columns will be imputed (missing values filled with the most frequent value) and one-hot encoded.
+                       -Output in the console:
+
