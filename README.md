@@ -53,16 +53,19 @@ Expected Output:
 Explanation of the Output:
 
 1.Numerical Columns:
+
 -Age and Salary are scaled using StandardScaler, so their values are now centered around 0 with a standard deviation of 1.
 -Missing values are imputed with the mean of the respective column.
 
 2.Categorical Columns:
+
 -Gender and Country are one-hot encoded. For example:
         -Gender becomes Gender_Female and Gender_Male.
         -Country becomes Country_India, Country_UK, and Country_USA.
 -Missing values are imputed with the most frequent value.
 
 3.Output File:
+
 -The transformed data is saved as a CSV file (transformed_data.csv).
 
 
