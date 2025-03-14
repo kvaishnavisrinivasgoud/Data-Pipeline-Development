@@ -14,7 +14,9 @@ The etl_pipeline function combines all the steps into a single pipeline.
 
 How to Use:
 1.Replace input_data.csv with the path to your input dataset.
+
 2.Replace transformed_data.csv with the desired output file path.
+
 3.Run the script to perform the ETL process.
 
 Dependencies:                                                                                                                                                                                                      
