@@ -1,5 +1,5 @@
 # Data-Pipeline-Development
-Explanation of the Script:                                                                                                                                                                                         
+## Explanation of the Script:                                                                                                                                                                                         
 1.Extract:
 The extract_data function reads the dataset from a CSV file using pandas.      
 2.Transform:
@@ -12,14 +12,14 @@ The load_data function saves the transformed data to a new CSV file.
 4.ETL Pipeline:                                                                                                                                                                                              
 The etl_pipeline function combines all the steps into a single pipeline.                                                                                                                                           
 
-How to Use:
+## How to Use:
 
 1.Replace input_data.csv with the path to your input dataset.                                                                                                                                                    
 2.Replace transformed_data.csv with the desired output file path.                                                                                                                                                
 3.Run the script to perform the ETL process.                                                                                                                                                                     
 
 
-Dependencies:                                                                                                                                                                                                      
+## Dependencies:                                                                                                                                                                                                      
 Make sure you have the required libraries installed:     
 
                                       pip install pandas scikit-learn
@@ -27,7 +27,7 @@ Make sure you have the required libraries installed:
 This script can be extended or modified based on specific requirements, such as handling different data formats, adding more transformation steps, or integrating with databases.
 
 
-Expected Output:                                                                                                                                                                                                 
+## Expected Output:                                                                                                                                                                                                 
 
 1.Extract:                                                                                                                                                                                                       
 -The script will load the dataset from the specified input_file_path (e.g., input_data.csv).                                                                                                                     
@@ -50,7 +50,7 @@ Expected Output:
                                 Transformed data saved to transformed_data.csv                                                                                                                                  
                                 
 
-Explanation of the Output:
+## Explanation of the Output:
 
 1.Numerical Columns:
 
