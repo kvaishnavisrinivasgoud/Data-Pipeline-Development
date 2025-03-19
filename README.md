@@ -1,4 +1,18 @@
 # Data-Pipeline-Development
+
+*COMPANY* : CODETECH IT SOLUTIONS
+
+*NAME* : K.VAISHNAVI
+
+*INTERN ID* : CT08VYQ
+
+*DOMAIN* : DATA SCIENCE
+
+*DURATION* : 4 WEEKS
+
+*MENTOR* : NEELA SANOTOSH
+
+
 ## Explanation of the Script:                                                                                                                                                                                         
 1.Extract:
 The extract_data function reads the dataset from a CSV file using pandas.      
